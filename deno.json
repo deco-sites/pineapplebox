@@ -36,7 +36,7 @@
     "@zaubrik/djwt": "jsr:@zaubrik/djwt@^3.0.2",
     "fast-json-patch": "npm:fast-json-patch@^3.1.1",
     "simple-git": "npm:simple-git@^3.25.0",
-    "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@^0.3.1"
+    "@deco/codemod-toolkit": "jsr:@deco/codemod-toolkit@0.3.2"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",

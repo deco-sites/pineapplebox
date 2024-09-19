@@ -22,7 +22,8 @@
       "section": {
         "__resolveType": "site/sections/Product/SearchResult.tsx",
         "page": {
-          "__resolveType": "PLP Loader"
+          "__resolveType": "nuvemshop/loaders/productListingPage.ts",
+          "limit": 10
         },
         "layout": {
           "columns": {
