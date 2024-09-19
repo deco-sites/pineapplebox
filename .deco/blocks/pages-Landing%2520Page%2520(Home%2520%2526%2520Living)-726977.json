@@ -25,7 +25,8 @@
           "__resolveType": "shopify/loaders/ProductListingPage.ts",
           "count": 12,
           "collectionName": "Home & Living",
-          "query": "home & living"
+          "query": "home & living",
+          "limit": 9
         },
         "layout": {
           "columns": {
