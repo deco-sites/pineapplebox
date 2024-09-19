@@ -10,11 +10,12 @@
       "section": {
         "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
         "jsonLD": {
-          "__resolveType": "PDP Loader"
+          "__resolveType": "nuvemshop/loaders/productDetailsPage.ts"
         },
         "jsonLDs": [
           {}
-        ]
+        ],
+        "omitVariants": false
       }
     },
     {
@@ -28,7 +29,7 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
-          "__resolveType": "PDP Loader"
+          "__resolveType": "nuvemshop/loaders/productDetailsPage.ts"
         }
       }
     },
@@ -49,7 +50,9 @@
             "productTypes": [],
             "productVendors": [],
             "variantOptions": []
-          }
+          },
+          "limit": 10,
+          "sort": "price-ascending"
         }
       }
     },
