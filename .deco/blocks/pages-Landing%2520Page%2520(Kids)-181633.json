@@ -7,7 +7,8 @@
       "section": {
         "__resolveType": "commerce/sections/Seo/SeoPLPV2.tsx",
         "jsonLD": {
-          "__resolveType": "PLP Loader"
+          "__resolveType": "nuvemshop/loaders/productListingPage.ts",
+          "limit": 10
         }
       }
     },
@@ -24,7 +25,8 @@
         "page": {
           "__resolveType": "shopify/loaders/ProductListingPage.ts",
           "count": 12,
-          "query": "kids"
+          "query": "kids",
+          "limit": 10
         },
         "layout": {
           "columns": {
@@ -32,9 +34,10 @@
             "desktop": 4
           },
           "variant": "aside",
-          "pagination": "show-more"
+          "pagination": "pagination"
         },
-        "startingPage": 1
+        "startingPage": 0,
+        "partial": "hideMore"
       }
     },
     {
