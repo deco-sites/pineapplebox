@@ -27,32 +27,20 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductDetails.tsx",
-        "page": {
-          "__resolveType": "nuvemshop/loaders/productDetailsPage.ts"
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "nuvemshop/loaders/productList.ts",
+          "limit": 10,
+          "sort": "user"
         }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "You may also like",
-        "products": {
-          "__resolveType": "shopify/loaders/ProductList.ts",
-          "props": {
-            "sort": "",
-            "query": "a",
-            "count": 9
-          },
-          "filters": {
-            "tags": [],
-            "productTypes": [],
-            "productVendors": [],
-            "variantOptions": []
-          },
-          "limit": 10,
-          "sort": "price-ascending"
+        "__resolveType": "site/sections/Product/ProductDetails.tsx",
+        "page": {
+          "__resolveType": "nuvemshop/loaders/productDetailsPage.ts"
         }
       }
     },

@@ -50,12 +50,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "Featured Products",
-        "cta": "/mono",
         "products": {
-          "__resolveType": "Product List Loader",
-          "sort": "user",
-          "limit": 10
+          "__resolveType": "nuvemshop/loaders/productList.ts",
+          "limit": 10,
+          "sort": "user"
         }
       }
     },

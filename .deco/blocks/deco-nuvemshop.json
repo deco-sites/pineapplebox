@@ -2,8 +2,8 @@
   "__resolveType": "site/apps/deco/nuvemshop.ts",
   "accessToken": {
     "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "424e9530c9989e0aba111e90ad95e66b237ddb67bd0f6e99d6262426b2554b5e41362a27b94b994d2e7526a2d739dde2",
-    "name": "CLOUDKEY"
+    "encrypted": "ce3ec0a55e40494a9386c0f66ff7ab4b251c37d0c9a5fa722b691e3d9d3d0db21c29336e10f7c8eee561793f575ac6be",
+    "name": "CLOUDKEY2"
   },
   "platform": "nuvemshop",
   "publicUrl": "https://kallcistore.lojavirtualnuvem.com.br/",
